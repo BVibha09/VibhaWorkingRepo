@@ -98,6 +98,8 @@ public class homepage extends testbase {
 			System.out.println(e.getClass());
 		}
 		anclose.click();
+		//below line is just for sample
+		System.out.println("This is test");
 	}
 
 	public void clickondashboard() {
