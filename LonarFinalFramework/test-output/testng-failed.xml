@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="a2z.uat.tests.SupplierLoginTest"/>
+      <class name="a2z.uat.tests.SupplierMyProductsTest"/>
+      <class name="a2z.uat.tests.SupplierLogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="a2z.uat.tests.SupplierLogoutTest">
+        <methods>
+          <include name="doLogout"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- a2z.uat.tests.SupplierLogoutTest -->
+      <class name="a2z.uat.tests.SupplierMyProductsTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="createNewProduct"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- a2z.uat.tests.SupplierMyProductsTest -->
+      <class name="a2z.uat.tests.SupplierLoginTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- a2z.uat.tests.SupplierLoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

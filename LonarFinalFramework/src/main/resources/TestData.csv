@@ -1,0 +1,78 @@
+#AddUser-> SupplierUser
+Sarika,B-206,Treasure apartment-B-206-vasai-nivas,Kothrud-Stand,411512,Nal road,Test1236@gmail.com,7489612311,3862961482
+Dipika,B-206,Mai apartment-B-206-vasai-nivas,Bavani Nagar,4115,Nal road,Test1236@gmail.com,5569833302,7636998089
+
+#EditInfoUser-> SupplierUser
+Sarika,Purvi,B-32,Nikhal apartment-B-32-vasai-nivas,karve road,856412,Naka road,Test16@gmail.com,5560362160,9836968429
+Purvi,yash,B-32,yevti apartment-B-32-Shubh-nivas,karal Wasti,4111,Nal road,Test16@gmail.com,7520397060,9386983026
+
+#AddCity-> SupplierCity
+Bikaner,
+Mumbai12,
+
+#EditCity-> SupplierCity
+Akola,Bhopal 
+Bhopal,Patiala123
+
+#Add_Delivery_Area-> SupplierDeliveryArea
+Bandra,415652
+Bhosarii,412
+
+#Edit_Delivery_Area-> SupplierDeliveryArea
+Bandra,Mahim,123648
+Mahim,camp,953
+
+#AddState-> SupplierState
+Meghalaya,
+Kerala123,
+
+#EditState-> SupplierState
+Meghalaya,Rajasthan
+Rajasthan,Goa12
+
+#Add_Subscription_DeliveryOnce-> SupplierSubscription
+Arush, 
+Hahast,56
+
+#Add_Subscription_Subscription-> SupplierSubscription
+Mauli,**
+Mauli,36
+
+#Place_Order_FromExistingProduct & Cancel_Order_FromExistingProduct-> SupplierSubscription
+Arush,**,
+Bharti,25,
+Harsh,
+
+#Edit_RejectPendingApprovals & Edit_ApprovePendingApprovals-> SupplierSubscription
+32,
+**,
+
+#Change_Vacation_Dates-> SupplierSubscription
+Arush,
+
+#End_Vacation-> SupplierSubscription
+Hahast,
+
+#Set_Vacation-> SupplierSubscription
+Klm,
+
+#editProfile-> SupplierProfile
+A1002,Su Casa,Near Highstreet,411011,Balewadi,test1@gmail.com,8888888880
+
+#editProfileInvalid-> SupplierProfile
+A1001,Bella Casa,Near Bitwise,4110,Baner,test@gmail.com,8845288888
+
+#createNewProduct-> SupplierAddProducts
+MANGO121,KesharMango Test Product,Product created through Automation Testing,200,Kg,HSNC11,11-Jun-2020,25-Jun-2020,
+
+#EditDAProfileValid-> DAProfile
+Seema1,A101,Royal Plaza,narayan peth,411512,Kothrud,abc@gmail.com,9403233055,0000000000
+
+#CustomereditProfile-> CustomerProfile
+L9999EQ,Swati More,B6/309,Sinhagad,Near School,411006,Kothrud,swati@123.com,8149233196,1111177777
+
+#CustomereditProfileInvalid-> CustomerProfile
+L9999EQ,Swati More,B6/309,Sinhagad,Near School,416,Kothrud,swati@123.com,8149233196,1111177777
+
+#search_Invoice-> CustomerInvoices
+1588,
